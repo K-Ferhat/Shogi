@@ -1,0 +1,32 @@
+************************* SHOGI *************************
+
+- Compilation:
+
+	Il suffit de lancer le makefile en executant dans le terminal la commande "make" en etant dans le repertoire du jeu
+
+- Execution:
+
+	Il y a 3 chois possibles:
+
+		.lancer une nouvelle partie: dans le terminal, executer la commande "./shogi" sans arguments.
+
+		.charger une partie: dans le terminal, executer la commande "./shogi " suivie du nom de la partie a charger.
+
+		.lancer un replay: dans le terminal, executer la commande "./shogi " suivie du nom du replay a lancer.
+
+	Remarques:
+
+		.lors de l'exécution, si le fichier donné existe dans les deux dossiers (Plateaux et Partie), le programme demande à l'utilisateur de choisir entre charger une partie et lancer un replay. Et si le fichier n'existe pas, le programme s'arrête.
+
+		.en fin d'éxecution, tout les fichier.o seront supprimés.
+
+		.le programme s'arrête si l'un des roi est en échec et mat.
+
+- Commandes du programme:
+
+	Partie :
+		durant la partie il vous est donné la possibilité de faire un deplacement, d'annuler un deplacement (si possible) et quitter la partie.
+		en quittant il y a la possibilité de sauvegarde.
+
+	replay:
+		durant le replay il y a la possibilité d'afficher le coup suivant ou precedent (s'il existe). 
